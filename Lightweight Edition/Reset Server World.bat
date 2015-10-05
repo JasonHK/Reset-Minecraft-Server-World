@@ -14,7 +14,7 @@ if [%Reset%] == [] goto Exit
 Echo ------------------------------------------------------------------------------
 Echo.
 Echo   Reset Minecraft Server World: Lightweight Edition
-Echo   Copyright (c) James Studio 2015
+Echo   Copyright (c) Dawn Studio 2015
 Echo.
 Echo ------------------------------------------------------------------------------
 Echo.

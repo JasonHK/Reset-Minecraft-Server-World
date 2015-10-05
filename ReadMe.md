@@ -5,6 +5,12 @@
 "Reset Minecraft Server World" is the most convenient tool for vanilla Minecraft server. You can simply click on the button to reset the custom map. There are currently three versions: Original Edition, One Key Reset Edition and Lightweight Edition.
 
 ## Change Log ##
+v2.1.1
+```
+* Original Edition: Bug fixed
+* One Key Reset Edition: Bug fixed
+* Lightweight Edition: Bug fixed
+```
 v2.1
 ```
 * One Key Reset Edition: Bug fixed

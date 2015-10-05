@@ -22,7 +22,7 @@ Echo.
 Echo ==============================================================================
 Echo.
 Echo   Reset Minecraft Server World
-Echo   Copyright (c) James Studio 2015
+Echo   Copyright (c) Dawn Studio 2015
 Echo.
 Echo ------------------------------------------------------------------------------
 Echo.
