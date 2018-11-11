@@ -1,4 +1,4 @@
-::µ{¦¡¤¶­±³]©w
+::ç¨‹å¼ä»‹é¢è¨­å®š
 @echo off
 @SETLOCAL ENABLEEXTENSIONS
 @COLOR 17
@@ -7,22 +7,22 @@ cls
 
 
 :Start
-::±Ò°Êµ{¦¡©ÒÅã¥Üªºµe­±
+::å•Ÿå‹•ç¨‹å¼æ‰€é¡¯ç¤ºçš„ç•«é¢
 echo If you still can see this file after the program closed, the reason is the program wrongly shut down. > ProgramRunning.txt
 for /f "tokens=1 delims=" %%x in (.Reset.txt) do set Reset=%%~x
 if [%Reset%] == [] goto Exit
 Echo ==============================================================================
 Echo.
-Echo       ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ
-Echo       ùþ¡@¡@ùþ¡@ùþùþ¡@ùþùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþ¡@¡@ùþ¡@ùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@¡@ùþ¡@ùþ¡@¡@One Key Reset Edition
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­
+Echo       ï¿­ã€€ã€€ï¿­ã€€ï¿­ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ã€€One Key Reset Edition
 Echo.
 Echo ==============================================================================
 Echo.
 Echo   Reset Minecraft Server World
-Echo   Copyright (c) Dawn Studio 2015
+Echo   Copyright (c) Jason Kwok 2018
 Echo.
 Echo ------------------------------------------------------------------------------
 Echo.
@@ -36,14 +36,14 @@ Goto Reset
 
 :Reset
 :Reset_Remove
-::²¾°£ÂÂÀÉ®×
+::ç§»é™¤èˆŠæª”æ¡ˆ
 Echo ==============================================================================
 Echo.
-Echo       ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ
-Echo       ùþ¡@¡@ùþ¡@ùþùþ¡@ùþùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþ¡@¡@ùþ¡@ùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@¡@ùþ¡@ùþ¡@¡@One Key Reset Edition
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­
+Echo       ï¿­ã€€ã€€ï¿­ã€€ï¿­ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ã€€One Key Reset Edition
 Echo.
 Echo ==============================================================================
 Echo.
@@ -51,8 +51,8 @@ Echo   Reset Minecraft Server World
 Echo.
 Echo ------------------------------------------------------------------------------
 Echo.
-Echo        ¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w  0%%¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{
-Echo        ¢|¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¢}
+Echo        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€  0%%â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+Echo        â””ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€â”˜
 Echo          Status: Remove old files
 Echo.
 Echo ------------------------------------------------------------------------------
@@ -61,14 +61,14 @@ Echo ---------------------------------------------------------------------------
 cls
 goto Reset_Creat
 :Reset_Creat
-::³Ð«Ø¸ê®Æ§¨
+::å‰µå»ºè³‡æ–™å¤¾
 Echo ==============================================================================
 Echo.
-Echo       ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ
-Echo       ùþ¡@¡@ùþ¡@ùþùþ¡@ùþùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþ¡@¡@ùþ¡@ùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@¡@ùþ¡@ùþ¡@¡@One Key Reset Edition
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­
+Echo       ï¿­ã€€ã€€ï¿­ã€€ï¿­ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ã€€One Key Reset Edition
 Echo.
 Echo ==============================================================================
 Echo.
@@ -76,8 +76,8 @@ Echo   Reset Minecraft Server World
 Echo.
 Echo ------------------------------------------------------------------------------
 Echo.
-Echo        ¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w 33%%¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{
-Echo        ¢|ùþùþùþùþùþùþùþùþùþùþ¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¢}
+Echo        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ 33%%â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+Echo        â””ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€â”˜
 Echo          Status: Create folder
 Echo.
 Echo ------------------------------------------------------------------------------
@@ -86,14 +86,14 @@ Echo ---------------------------------------------------------------------------
 cls
 goto Reset_Copy
 :Reset_Copy
-::½Æ»sÀÉ®×
+::è¤‡è£½æª”æ¡ˆ
 Echo ==============================================================================
 Echo.
-Echo       ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ
-Echo       ùþ¡@¡@ùþ¡@ùþùþ¡@ùþùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþ¡@¡@ùþ¡@ùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@¡@ùþ¡@ùþ¡@¡@One Key Reset Edition
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­
+Echo       ï¿­ã€€ã€€ï¿­ã€€ï¿­ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ã€€One Key Reset Edition
 Echo.
 Echo ==============================================================================
 Echo.
@@ -101,8 +101,8 @@ Echo   Reset Minecraft Server World
 Echo.
 Echo ------------------------------------------------------------------------------
 Echo.
-Echo        ¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w 67%%¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{
-Echo        ¢|ùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþ¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¢}
+Echo        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ 67%%â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+Echo        â””ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€â”˜
 Echo          Status: Copying file
 Echo.
 Echo ------------------------------------------------------------------------------
@@ -111,14 +111,14 @@ Echo ---------------------------------------------------------------------------
 cls
 goto Reset_Finished
 :Reset_Finished
-::§¹¦¨­«³]¥@¬É
+::å®Œæˆé‡è¨­ä¸–ç•Œ
 Echo ==============================================================================
 Echo.
-Echo       ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ
-Echo       ùþ¡@¡@ùþ¡@ùþùþ¡@ùþùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþ¡@¡@ùþ¡@ùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@¡@ùþ¡@ùþ¡@¡@One Key Reset Edition
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­
+Echo       ï¿­ã€€ã€€ï¿­ã€€ï¿­ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ã€€One Key Reset Edition
 Echo.
 Echo ==============================================================================
 Echo.
@@ -126,8 +126,8 @@ Echo   Reset Minecraft Server World
 Echo.
 Echo ------------------------------------------------------------------------------
 Echo.
-Echo        ¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w100%%¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{
-Echo        ¢|ùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþùþ¢}
+Echo        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€100%%â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+Echo        â””ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­ï¿­â”˜
 Echo          Status: Finished
 Echo.
 Echo ------------------------------------------------------------------------------
@@ -135,14 +135,14 @@ Echo ---------------------------------------------------------------------------
 cls
 goto Reset_Exit
 :Reset_Exit
-::°h¥X­«³]¥@¬É
+::é€€å‡ºé‡è¨­ä¸–ç•Œ
 Echo ==============================================================================
 Echo.
-Echo       ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ
-Echo       ùþ¡@¡@ùþ¡@ùþùþ¡@ùþùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþ¡@¡@ùþ¡@ùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@¡@ùþ¡@ùþ¡@¡@One Key Reset Edition
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­
+Echo       ï¿­ã€€ã€€ï¿­ã€€ï¿­ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ã€€One Key Reset Edition
 Echo.
 Echo ==============================================================================
 Echo.
@@ -162,14 +162,14 @@ goto Exit
 
 
 :Exit
-::Ãö³¬µ{¦¡
+::é—œé–‰ç¨‹å¼
 Echo ==============================================================================
 Echo.
-Echo       ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@¡@¡@ùþ
-Echo       ùþ¡@¡@ùþ¡@ùþùþ¡@ùþùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ¡@ùþùþùþùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþ¡@¡@ùþ¡@ùþ¡@ùþ¡@¡@¡@¡@ùþ¡@ùþ¡@ùþ¡@ùþ
-Echo       ùþ¡@ùþùþ¡@ùþ¡@¡@¡@ùþ¡@ùþùþùþùþ¡@¡@ùþ¡@ùþ¡@¡@One Key Reset Edition
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­
+Echo       ï¿­ã€€ã€€ï¿­ã€€ï¿­ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ã€€ã€€ã€€ï¿­ã€€ï¿­ã€€ï¿­ã€€ï¿­
+Echo       ï¿­ã€€ï¿­ï¿­ã€€ï¿­ã€€ã€€ã€€ï¿­ã€€ï¿­ï¿­ï¿­ï¿­ã€€ã€€ï¿­ã€€ï¿­ã€€ã€€One Key Reset Edition
 Echo.
 Echo ==============================================================================
 Echo.
